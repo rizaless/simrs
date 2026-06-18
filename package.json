@@ -1,17 +1,20 @@
 {
-  "name": "simrs-monitoring",
-  "version": "0.1.0",
-  "description": "A simple monitoring application for simrs repository.",
+  "name": "uem-security-solution",
+  "version": "1.0.0",
+  "description": "Unified Endpoint Management & Security Solution for monitoring and securing client devices",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon src/index.js",
+    "client": "node src/client/demo.js"
   },
   "keywords": [
+    "uem",
+    "endpoint-management",
+    "security",
     "monitoring",
-    "health",
-    "metrics",
-    "express"
+    "compliance",
+    "device-management"
   ],
   "author": "",
   "license": "MIT",
